@@ -5,5 +5,5 @@ if [ -f ~/.bashrc ]; then
         . ~/.bashrc
 fi
 # add date and time on prompt shell
-PS1="\e[0;32m[\u@\h \D{%d-%m-%Y-%H:%M:%S}]\$ \e[0m"
+PS1="\e[0;32m[\u@\h \D{%d-%m-%Y-%H:%M:%S}]\w\$ \e[0m"
 # User specific environment and startup programs
